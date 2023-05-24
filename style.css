@@ -1,0 +1,185 @@
+
+.pokedex{
+   display: flex;
+   flex-direction: column;
+    background-color: #e94242;
+    width: 22%;
+    padding: 20px;
+    border: solid 3px #b13232;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: inset -2px -2px 2px #b13232,inset 2px 2px 2px #b13232;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .pokedex{
+        width: 30%;
+
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .pokedex{
+        width: 100%;
+
+    }
+  }
+
+
+.bolinhas{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    width: 100%;
+    border-block-end:solid 3px rgb(239, 239, 239);
+    padding-block-end: 10px;
+    
+
+}
+
+.bolinha-1
+    {   
+        border-radius: 50%;
+        display: inline-block;
+        height: 70px;
+        width: 70px;
+        border: 6px solid rgba(82, 82, 82, 0);
+        border-color: #ffff;
+        background-color: #78adb1;
+        
+        
+       
+    }
+.bolinha-2
+{   margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #0000;
+    border-color: black;
+    
+    background-color: #f43f3f;
+    
+}
+
+.bolinha-3
+{
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #0000;
+    border-color: black;
+    
+    background-color: yellow;
+    
+    
+}
+.bolinha-4
+{
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    border-color: black;
+    
+    background-color: rgb(7, 158, 7);
+    
+    
+}
+
+
+.onde-fica-a-tela{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(214, 210, 210);
+    
+    padding-top: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #0000;
+    border: solid 0px;   
+    padding-block-end: 20px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+}
+.tela-pokemons{
+    display: flex;
+    background-image: url(./imagens/paisagem2.png);
+    background-size: cover;
+    flex-direction: column;
+    background-position: center center;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-block-end:10px;
+
+    align-items: center;
+    border-radius:5px;
+    border-color: #0000;
+    border: 8px solid;
+    border-style: groove;
+    max-width: 400px;
+    
+    
+}
+.pesquisar{
+    background-color: #ffff;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+
+.pokebola{
+   
+    margin-top: 50px;
+   
+}
+
+.pikachu{
+
+}
+
+.seta{
+    margin-top: -120;
+
+ 
+}
+#content{
+    
+    font-family: monospace;
+    background-color: rgb(44, 43, 43);
+    width:100%;
+    text-align: center;
+    color: #ffff;
+    flex-direction: row;
+
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+    
+
+.pokemon{
+    
+    width: 100px;
+    margin-top: 90px;
+    margin-block-end: 50px;
+    aspect-ratio: auto 90 / 90;
+}
+
